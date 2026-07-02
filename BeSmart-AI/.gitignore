@@ -1,0 +1,32 @@
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Android
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/local.properties
+android/key.properties
+*.jks
+
+# iOS (future)
+ios/Pods/
+ios/.symlinks/
+
+# Models (downloaded at runtime)
+*.gguf
+
+# OS
+.DS_Store
+Thumbs.db
